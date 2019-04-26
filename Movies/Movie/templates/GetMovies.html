@@ -1,0 +1,18 @@
+
+
+
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name ="referrer" content="no-referrer">
+<title></title>
+</head>
+<body>
+         {%  for i  in  list %}
+             <p>{{ i.title }}</p>
+             <h2>{{ i.director }}</h2>
+             <img width="100"  src={{ i.img }} >
+             <h3>{{ i.dec}}</h3>
+         {% endfor %}
+</body>
+</html>
